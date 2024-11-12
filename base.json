@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "labels": [
+    "renovate",
     "dependencies"
   ],
   "timezone": "America/Toronto",
