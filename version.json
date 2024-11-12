@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["helm"],
+      "matchUpdateTypes": ["major","minor","patch"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "helm",
+      "bumpVersion": "patch"
+    }
+  ]
+}

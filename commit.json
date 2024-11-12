@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["helm"],
+      "commitMessageTopic": "helm {{depName}}"
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "commitMessageTopic": "github-actions {{depName}}"
+    }
+  ]
+}

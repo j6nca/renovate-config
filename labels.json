@@ -1,0 +1,38 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "labels": [
+    "renovate"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["helm"],
+      "addLabels": [
+        "helm"
+      ]
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "addLabels": [
+        "github-actions"
+      ]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "addLabels": [
+        "major"
+      ]
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "addLabels": [
+        "minor"
+      ]
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "addLabels": [
+        "patch"
+      ]
+    }
+  ]
+}
